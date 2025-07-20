@@ -50,6 +50,7 @@ const Body = () => {
             className="input-box border border-solid border-black m-2"
             value={searchText}
             placeholder="...Search"
+            data-testid="searchInput"
             onChange={(e) => {
               setSearchText(e.target.value);
             }}

@@ -4,18 +4,19 @@ import { Link } from 'react-router-dom';
 import useOnlineStatus from '../../util/useOnlineStatus';
 import UserContext from '../../util/UserContext';
 import { useSelector } from 'react-redux';
+import logo from './Images/CDN.png';
 
 export const Header = () => {
   const [btnName, setBtnName] = useState('Login');
   const onlineStatus = useOnlineStatus();
   const { loggedInUser } = useContext(UserContext);
   const cartItems = useSelector((store) => store.cart.items);
-  console.log(cartItems);
+  // console.log(cartItems);
 
   return (
     <div className="flex justify-between bg-pink-100 shadow mb-2">
       <div className="logo-container">
-        <img src={CDN_Logo} alt="app logo" className="w-32 m-2" />
+        <img src={logo} alt="app logo" className="w-32 m-2" />
       </div>
       <div className="flex align items-center">
         <ul className="flex p-4 m-4 ">
