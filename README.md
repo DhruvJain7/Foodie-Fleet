@@ -1,7 +1,7 @@
 -----
 # Foodie-Fleet
 
-A hands on food delivery app made using React.js,Tailwind CSS,Redux,React-router,jest. The Basic aim of this project was to learn fundamentals of building a Frontend app under Namaste React.
+A hands on food delivery app made using React.js, Tailwind CSS ,Redux, React-router , jest. The Basic aim of this project was to learn fundamentals of building a Frontend app under Namaste React.
 
 ------
 
